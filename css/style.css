@@ -78,6 +78,19 @@ header {
     position: relative;
 }
 
+.nascosto {
+    display: none;
+}
+
+.position:hover .nascosto {
+    display: inline-block;
+    width: 280px;
+
+    position: absolute;
+    top: 0;
+}
+
+
 .heart {
     position: absolute;
     top: 7px;
@@ -86,6 +99,52 @@ header {
     padding: 8px;
     background-color: white;
     font-size: 20px;
+}
+
+.label {
+    position: absolute;
+    bottom: 45px;
+    left: 0px;
+    color: white;
+
+    padding: 5px;
+    /* height: 26px;
+    width: 60px; */
+    
+    background-color: rgb(255, 0, 0);
+    font-size: 15px;
+    text-align: center;
+}
+
+.label2 {
+    position: absolute;
+    bottom: 45px;
+    left: 50px;
+    color: white;
+
+    padding: 5px;
+    /* height: 26px;
+    width: 60px; */
+    
+    background-color: #008000;
+    font-size: 15px;
+    text-align: center;
+}
+
+.label3 {
+    position: absolute;
+    bottom: 45px;
+    left: 0px;
+    color: white;
+
+    padding: 5px;
+    /* height: 26px;
+    width: 60px; */
+    
+    background-color: #008000;
+    font-size: 15px;
+    text-align: center;
+
 }
 
 
