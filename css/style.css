@@ -101,6 +101,10 @@ header {
     font-size: 20px;
 }
 
+.heart:hover {
+    color: red;
+}
+
 .label {
     position: absolute;
     bottom: 45px;
