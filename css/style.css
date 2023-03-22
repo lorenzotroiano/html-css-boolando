@@ -10,6 +10,10 @@ header {
     width: 100%;
     background-color: #ff6900;
     color: white;
+
+    position: fixed;
+    z-index: 1;
+    
 }
 
 .space {
@@ -60,6 +64,28 @@ header {
 
 .descrizione {
     font-size: 14px;
+}
+
+.red {
+    color: red;
+}
+
+.sconto {
+    text-decoration: line-through;
+}
+
+.position {
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    top: 7px;
+    right: 0px;
+
+    padding: 8px;
+    background-color: white;
+    font-size: 20px;
 }
 
 
