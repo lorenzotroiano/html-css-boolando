@@ -4,15 +4,21 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* stile intestazione */
 header {
     width: 100%;
     background-color: #ff6900;
     color: white;
+    padding: 20px;
 
     position: fixed;
     z-index: 1;
+    top: 0;
+    left: 0;
     
 }
 
@@ -45,6 +51,10 @@ header {
 
 
 /* stile contenuto */
+main {
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
 
 .flex-descrizione {
     width: 80%;
@@ -103,6 +113,7 @@ header {
 
 .heart:hover {
     color: red;
+    z-index: 1;
 }
 
 .label {
@@ -239,4 +250,16 @@ ul {
 footer {
     background-color: #1a1a1a;
     width: 100%;
+}
+
+
+
+
+.genere:hover, .fa-bag-shopping:hover, .fa-user:hover {
+    color: purple;
+}
+
+.genere:hover{
+    text-decoration: underline;
+    
 }
